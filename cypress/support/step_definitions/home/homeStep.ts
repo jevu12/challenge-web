@@ -8,6 +8,6 @@ Given('que ingreso a la pagina de netflix', function () {
     cy.wait(2000);
 });
 
-When('hace click en el boton de iniciar sesion del home', function () {
+When('hago clic en el botón Iniciar sesión en la página principal', function () {
     Home.clickLoginHome();
 });
