@@ -12,5 +12,5 @@ cypress/videos/*
 cypress/downloads
 cypress/downloads/*
 
-
+.bin
 node_modules
