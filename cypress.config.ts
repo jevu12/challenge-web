@@ -7,8 +7,7 @@ export default defineConfig({
   e2e: {
     baseUrl: "http://www.netflix.com",
     video: true,
-    viewportWidth: 1280,
-    viewportHeight: 720,
+    screenshotOnRunFailure: true,
     setupNodeEvents(on, config) {
       const options = {
         ...browserify.defaultOptions,
