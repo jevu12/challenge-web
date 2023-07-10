@@ -9,9 +9,20 @@
     "cy:run:chrome": "cypress run --headless --browser chrome --spec \"cypress/e2e/search_movie/*\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Cypress",
+    "Cucumber",
+    "Typescript",
+    "BDD",
+    "Automation",
+    "POM",
+    "Page Object Model",
+    "POO",
+    "E2E",
+    "Testing"],
+  "author": "SDET Jorge Eider Vásquez Urrutia",
   "license": "ISC",
+  "repository": "https://github.com/jevu12/challenge-web.git",
   "devDependencies": {
     "@cypress/browserify-preprocessor": "^3.0.2",
     "cypress": "^12.17.0",
