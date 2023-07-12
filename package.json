@@ -7,10 +7,11 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "ui-test-movi-cy:run:chrome": "cypress run --browser chrome --headless --spec \"cypress/e2e/search_movie/**/*.feature\"",
-    "ui-test-regression-cy:run:chrome": "cypress run --browser chrome --headless --spec \"cypress/e2e/**/*.feature\"",
+    "ui-test-regression-cy:run": "cypress run --headless --spec \"cypress/e2e/**/*.feature\"",
     "report": "node cucumber-html-report.js",
     "report:open": "open ./cypress/reports/index.html",
-    "report:delete": "rm -rf cypress/reports/"
+    "report:delete": "rm -rf cypress/reports/",
+    "report:open:docker": " open ./reportCucumber/index.html"
   },
   "keywords": [
     "Cypress",

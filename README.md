@@ -72,3 +72,21 @@ Para ejecutar las pruebas en modo visual se debe ejecutar el siguiente comando:
 ```bash
 npx "cy:open": "cypress open"
 ```
+
+## Ejecución de pruebas en Docker
+Para ejecutar las pruebas en docker se debe ejecutar el siguiente comando:
+
+```bash
+docker build .
+```
+el comando anterior genera una imagen de docker con el proyecto y luego se debe ejecutar el siguiente comando:
+
+```bash
+docker build --build-arg netflixEmail=CORREO --build-arg netflixPassword=CONTRASEÑA -t challenge-web .
+
+```
+Con este se crea la imagen de docker con las variables de entorno de netflix y se ejecuta la imagen con el siguiente comando:
+
+```bash
+NETFLIX_EMAIL=USUARIO NETFLIX_PASSWORD=CONTRASEÑA docker-compose up
+```
